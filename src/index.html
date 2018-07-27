@@ -9,7 +9,18 @@
 </head>
 
 <body>
-    <x-search name="foobar">test</x-search>
+    <x-form name="Form-Test">
+        <x-step>
+            page 1
+            <x-input label="label1" type="password"></x-input>
+            <x-input value="test"></x-input>
+            <x-input placeholder="Place-Holder"></x-input>
+        </x-step>
+        <x-step>
+            page 2
+             <x-input></x-input>
+        </x-step>
+    </x-search>
 </body>
 
 </html>

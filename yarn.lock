@@ -27,6 +27,16 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.0.tgz#50c1e2260ac0ed9439a181de3725a0168d59c48a"
 
+"@types/lodash.debounce@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@types/lodash.debounce/-/lodash.debounce-4.0.4.tgz#a3d082628ef1bb1964c2b6a2d4f45acae7209e7a"
+  dependencies:
+    "@types/lodash" "*"
+
+"@types/lodash@*":
+  version "4.14.114"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.114.tgz#e6f251af5994dd0d7ce141f9241439b4f40270f6"
+
 "@types/node@*":
   version "10.5.3"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.5.3.tgz#5bcfaf088ad17894232012877669634c06b20cc5"
@@ -3732,6 +3742,10 @@ react-dom@^16.4.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.0"
+
+react-shadow-dom-retarget-events@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/react-shadow-dom-retarget-events/-/react-shadow-dom-retarget-events-1.0.8.tgz#411fe79194d974d7d1944622508ac271cc3a4346"
 
 react@^16.4.1:
   version "16.4.1"
