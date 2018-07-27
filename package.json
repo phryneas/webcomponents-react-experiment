@@ -1,0 +1,23 @@
+{
+  "name": "tmp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7",
+    "parcel-plugin-typescript": "^1.0.0",
+    "typescript": "^2.9.2",
+    "@types/react": "^16.4.7",
+    "@types/react-dom": "^16.0.6"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.0.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "scripts": {
+    "serve": "parcel src/index.html",
+    "watch": "rm -r ./dist/; parcel watch src/index.html",
+    "build": "rm -r ./dist/; parcel build src/index.html"
+  }
+}
