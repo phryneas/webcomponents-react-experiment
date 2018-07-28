@@ -9,18 +9,20 @@
 </head>
 
 <body>
-    <x-form name="Form-Test">
-        <x-step>
-            page 1
-            <x-input label="label1" type="password"></x-input>
-            <x-input value="test"></x-input>
-            <x-input placeholder="Place-Holder"></x-input>
-        </x-step>
-        <x-step>
-            page 2
-             <x-input></x-input>
-        </x-step>
-    </x-search>
+    <react-tree>
+        <x-form name="Form-Test">
+            <x-step>
+                <h3>page 1</h3>
+                <x-input label="label1" type="password"></x-input>
+                <x-input></x-input>
+                <x-input placeholder="Place-Holder"></x-input>
+            </x-step>
+            <x-step>
+                <h3>page 2</h3>
+                <x-input></x-input>
+            </x-step>
+            </x-search>
+    </react-tree>
 </body>
 
 </html>

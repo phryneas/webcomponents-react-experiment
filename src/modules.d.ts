@@ -1,4 +1,4 @@
 declare module 'react-shadow-dom-retarget-events' {
-    function retargetEvents(node: Node): void;
-    export = retargetEvents;
+  function retargetEvents(node: Node): void;
+  export = retargetEvents;
 }
